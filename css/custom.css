@@ -1,0 +1,87 @@
+/* ↓ LINKS */
+a {
+	color: black;
+}
+
+.nav-tabs>li>a {
+	font-family: Cooper Std, Arial;
+	margin-right:0px;
+	background-color:#f8f8f8;
+}
+
+.nav-tabs>li>a.active {
+	color:#c44444;
+	background-color: white;
+}
+
+.nav-tabs>li>a:hover {
+	color: maroon;
+}
+
+.nav-item {
+	border: outset;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: transparent;
+}
+
+li > a {
+	color: firebrick;
+}
+
+p > a {
+	color: firebrick;
+	font-weight: bold;
+	/*color: #c44444;*/
+}
+
+p > a:hover {
+	color: red;
+	text-decoration: none;
+
+}
+
+/* ↓ HEADINGS */
+
+h1 {
+	font-weight: normal;
+	font-family: Cooper Std, Corbel;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+  /* ↓ Indentation of Headings */
+
+div.col-md-6 > h2 {
+	margin-left: 20px;
+}
+
+div.col-md-6 > h3 {
+	margin-left: 40px;
+}
+
+div.col-md-6 > ul {
+	margin-left: 50px;
+}
+
+/* ↓ OTHER */
+img {
+	margin-left: auto;
+	margin-right: auto;
+	padding:5px;
+}
+
+div.content {
+	margin: 50px;
+}
+
+#emph {
+	/*font-weight: bold;*/
+	color: firebrick;
+}
+
+.container {
+	margin-top:20px;
+}
