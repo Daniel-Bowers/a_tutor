@@ -27,6 +27,7 @@ a {
 
 li > a {
 	color: firebrick;
+	font-weight: bold;
 }
 
 p > a {
@@ -45,7 +46,7 @@ p > a:hover {
 
 h1 {
 	font-weight: normal;
-	font-family: Cooper Std, Corbel;
+	font-family: Cooper Std, Impact, "Arial Black", Corbel;
 }
 
 h2 {
