@@ -36,7 +36,7 @@ p > a {
 	font-weight: bold;
 	/*color: #c44444;*/
 }
-
+/* ↓ Trying to make a better hover situation for inside my pages, but I can't get it to work.
 p > ul > li > a:hover {
 	color: red;
 	text-decoration: none;
