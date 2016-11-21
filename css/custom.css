@@ -68,12 +68,23 @@ div.col-md-6 > ul {
 	margin-left: 50px;
 }
 
-/* ↓ OTHER */
+/* ↓ IMAGES */
+
 img {
 	margin-left: auto;
 	margin-right: auto;
 	padding:5px;
 }
+
+p > img {
+	padding: 0px;
+}
+
+li > img {
+	padding: 0px;	
+}
+
+/* ↓ OTHER */
 
 div.content {
 	margin: 50px;
