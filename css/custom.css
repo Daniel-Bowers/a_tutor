@@ -37,7 +37,7 @@ p > a {
 	/*color: #c44444;*/
 }
 
-p > a:hover {
+p > li > a:hover {
 	color: red;
 	text-decoration: none;
 
