@@ -7,6 +7,7 @@ a {
 	font-family: Cooper Std, Arial;
 	margin-right:0px;
 	background-color:#f8f8f8;
+	font-weight: normal;
 }
 
 .nav-tabs>li>a.active {
