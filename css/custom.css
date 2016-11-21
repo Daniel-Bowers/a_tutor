@@ -27,6 +27,7 @@ a {
 
 li > a {
 	color: firebrick;
+	font-weight: bold;
 }
 
 p > a {
