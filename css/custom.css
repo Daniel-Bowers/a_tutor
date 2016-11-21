@@ -31,6 +31,11 @@ li > a {
 	font-weight: bold;
 }
 
+li > a {
+	color: red;
+	text-decoration: none;
+}
+
 p > a {
 	color: firebrick;
 	font-weight: bold;
