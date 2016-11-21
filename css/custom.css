@@ -36,7 +36,13 @@ p > a {
 	font-weight: bold;
 	/*color: #c44444;*/
 }
-/* ↓ Trying to make a better hover situation for inside my pages, but I can't get it to work.
+
+footer > a {
+	color: firebrick;
+	font-weight: bold;
+}
+
+	/* ↓ Trying to make a better hover situation for inside my pages, but I can't get it to work.
 p > ul > li > a:hover {
 	color: red;
 	text-decoration: none;
@@ -85,6 +91,13 @@ li > img {
 }
 
 /* ↓ OTHER */
+
+footer {
+	margin: 20px;
+    	padding: 10px;
+    	background-color: #e2b9b9;
+    	text-align: center;
+}
 
 div.content {
 	margin: 50px;
