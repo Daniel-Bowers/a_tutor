@@ -25,10 +25,31 @@ a {
     border-bottom: transparent;
 }
 
+a:hover {
+	color: firebrick;
+	text-decoration: none;
+}
+
+/* keeps arrows from being blue and underlined, or staying firebrick after you exit them*/
+a:focus {
+	color: black;
+	text-decoration: none;
+}
+
+li > a.DDarrow {
+	color: black;
+}
+
 li > a {
 	color: firebrick;
 	font-weight: bold;
 }
+
+li > a:hover {
+	color: red;
+	text-decoration: none;
+}
+
 
 p > a {
 	color: firebrick;
@@ -39,7 +60,6 @@ p > a {
 p > a:hover {
 	color: red;
 	text-decoration: none;
-
 }
 
 /* ↓ HEADINGS */
@@ -55,29 +75,67 @@ h2 {
 
   /* ↓ Indentation of Headings */
 
-div.col-md-6 > h2 {
+div[class^="col-md-"] > h2 {
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+	div[class^="col-md-"] > div.collapse > h2 {
+		margin-left: 15px;
+		margin-top: 15px;
+	}
+
+		div[class^="col-md-"] > div.collapse > div.collapse > h2 {
+			margin-left: 15px;
+			margin-top: 15px;
+		}
+
+
+div[class^="col-md-"] > h3 {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+	div[class^="col-md-"] > div.collapse > h3 {
+		margin-left: 30px;
+		margin-top: 10px;
+	}
+
+		div[class^="col-md-"] > div.collapse > div.collapse > h3 {
+			margin-left: 30px;
+			margin-top: 10px;
+		}
+
+div[class^="col-md-"] > h4 {
+	margin-left: 45px;
+	margin-top: 10px;
+}
+
+	div[class^="col-md-"] > div.collapse > h4 {
+		margin-left: 45px;
+		margin-top: 10px;
+	}
+
+		div[class^="col-md-"] > div.collapse > div.collapse > h4 {
+			margin-left: 45px;
+			margin-top: 10px;
+		}
+
+div[class^="col-md-"] > ul {
 	margin-left: 20px;
 }
 
-	div.col-md-6 > div.collapse > h2 {
+	div[class^="col-md-"] > div.collapse > ul {
 		margin-left: 20px;
 	}
 
-div.col-md-6 > h3 {
-	margin-left: 40px;
-}
+		div[class^="col-md-"] > div.collapse > div.collapse > ul {
+			margin-left: 20px;
+		}
 
-	div.col-md-6 > div.collapse > h3 {
-		margin-left: 40px;
-	}
-
-div.col-md-6 > ul {
-	margin-left: 50px;
-}
-
-	div.col-md-6 > div.collapse > ul {
-		margin-left: 50px;
-	}
+			div[class^="col-md-"] > div.collapse > div.collapse > div.collapse > ul {
+				margin-left: 35px;
+			}
 
 
 
@@ -102,9 +160,11 @@ img {
 	padding:5px;
 }
 
+
 div.content {
 	margin: 50px;
 }
+
 
 #emph {
 	/*font-weight: bold;*/
