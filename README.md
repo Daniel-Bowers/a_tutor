@@ -1,4 +1,2 @@
 # a_tutor
-This will be the official repository of my statist-friendly tutoring website.
-
-If you are a freedom-lover, please share my information with home school networks, unschoolers, etc.
+This will be the official repository of my tutoring website, and perhaps include pages to help my job hunt.
